@@ -5,8 +5,9 @@ module.exports = function() {
     users: _.times(3, (n) => {
       const firstName = faker.name.firstName()
       const lastName = faker.name.lastName()
+      const id = n + 1
       return {
-        id: n + 1,
+        id,
         firstName,
         lastName,
         email: `${firstName.toLowerCase()}.${lastName
@@ -14,7 +15,7 @@ module.exports = function() {
           .toLowerCase()}@thaimail.com`,
         password: faker.internet.password(),
         phoneNumber: faker.phone.phoneNumber('08#-###-####'),
-        role: ''
+        role: !(id % 2) ? 'BUSINESS' : 'CUSTOMER'
       }
     }),
     restaurants: _.times(10, (n) => {
@@ -26,6 +27,7 @@ module.exports = function() {
         address: `${faker.address.streetAddress()}, ${faker.address.cityName()}`,
         slogan: faker.lorem.sentence(),
         phoneNumber: faker.phone.phoneNumber('08#-###-####'),
+        imageUrl: faker.image.business(),
         opening: `${String(open).padStart(2, '0')}:00 - ${String(
           close
         ).padStart(2, '0')}:00`

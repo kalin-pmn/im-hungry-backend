@@ -4,5 +4,6 @@ dist
 dist-ssr
 *.local
 
+.idea
 yarn.lock
 package-lock.json

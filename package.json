@@ -6,7 +6,7 @@
   "author": "fResult",
   "license": "UNLICENSED",
   "scripts": {
-    "start": "json-server generate.js"
+    "start": "json-server generate.js --port 8080"
   },
   "dependencies": {
     "faker": "^5.5.3",

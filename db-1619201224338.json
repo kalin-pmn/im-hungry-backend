@@ -1,0 +1,295 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Vidal",
+      "lastName": "Orn",
+      "email": "vidal.o@thaimail.com",
+      "password": "vBBIaqxIshbZepN",
+      "phoneNumber": "082-277-7314",
+      "role": ""
+    },
+    {
+      "id": 2,
+      "firstName": "Maude",
+      "lastName": "Hudson",
+      "email": "maude.h@thaimail.com",
+      "password": "knKzwB_6yuT0c5C",
+      "phoneNumber": "089-512-9630",
+      "role": ""
+    },
+    {
+      "id": 3,
+      "firstName": "Anna",
+      "lastName": "Jenkins",
+      "email": "anna.j@thaimail.com",
+      "password": "iF4hTNpIdV0KCE4",
+      "phoneNumber": "089-806-6477",
+      "role": ""
+    }
+  ],
+  "restaurants": [
+    {
+      "id": 1,
+      "name": "Mayert, Kerluke and Heathcote",
+      "address": "363 Little Camp, Champaign",
+      "slogan": "Laudantium voluptatem laboriosam commodi magnam.",
+      "phoneNumber": "088-156-6648",
+      "opening": "09:00 - 19:00"
+    },
+    {
+      "id": 2,
+      "name": "Schimmel - Douglas",
+      "address": "4254 Smitham Estate, Arecibo",
+      "slogan": "Voluptas est ut veritatis aut in non quasi eaque.",
+      "phoneNumber": "086-646-1284",
+      "opening": "06:00 - 17:00"
+    },
+    {
+      "id": 3,
+      "name": "Labadie - Jacobi",
+      "address": "638 Dominic Viaduct, Urbana",
+      "slogan": "Veritatis mollitia deleniti autem et ut et.",
+      "phoneNumber": "083-865-7474",
+      "opening": "10:00 - 22:00"
+    },
+    {
+      "id": 4,
+      "name": "Watsica - Balistreri",
+      "address": "41318 Sincere Estate, Des Plaines",
+      "slogan": "Corporis nam quos exercitationem.",
+      "phoneNumber": "085-496-7051",
+      "opening": "08:00 - 19:00"
+    },
+    {
+      "id": 5,
+      "name": "Lemke - Turner",
+      "address": "1235 Friesen Mountain, Severn",
+      "slogan": "Possimus ipsa voluptas.",
+      "phoneNumber": "085-891-3774",
+      "opening": "06:00 - 18:00"
+    },
+    {
+      "id": 6,
+      "name": "Towne, Graham and Hintz",
+      "address": "1515 Anibal Brook, Carson",
+      "slogan": "Ipsam aut odio corporis quae nam nemo.",
+      "phoneNumber": "085-712-3351",
+      "opening": "06:00 - 17:00"
+    },
+    {
+      "id": 7,
+      "name": "Herzog Group",
+      "address": "101 Lindsey Meadow, Moore",
+      "slogan": "Pariatur itaque blanditiis totam qui cupiditate dolore quibusdam consequatur voluptatem.",
+      "phoneNumber": "088-657-3452",
+      "opening": "07:00 - 16:00"
+    },
+    {
+      "id": 8,
+      "name": "White - Rogahn",
+      "address": "61365 Leopoldo Avenue, New York",
+      "slogan": "Omnis voluptas dolores molestiae.",
+      "phoneNumber": "089-347-0163",
+      "opening": "06:00 - 15:00"
+    },
+    {
+      "id": 9,
+      "name": "Jacobi - Little",
+      "address": "88929 Dena Camp, Santee",
+      "slogan": "Impedit aliquam eaque.",
+      "phoneNumber": "084-521-4284",
+      "opening": "09:00 - 21:00"
+    },
+    {
+      "id": 10,
+      "name": "Aufderhar, Labadie and Kub",
+      "address": "0038 Carlo Stravenue, Hanford",
+      "slogan": "Quo eum vero tenetur omnis et.",
+      "phoneNumber": "085-078-2027",
+      "opening": "07:00 - 18:00"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "rating": 3,
+      "title": "rerum id rem exercitationem nisi",
+      "description": "Excepturi magnam est officiis illo.",
+      "datetime": "2020-07-12T07:17:43.521Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 2,
+      "rating": 5,
+      "title": "et at et impedit",
+      "description": "Accusamus nisi dolores voluptas sequi placeat.",
+      "datetime": "2021-02-01T12:00:26.903Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 3,
+      "rating": 4,
+      "title": "et fuga neque laboriosam numquam",
+      "description": "Beatae unde sit vero in culpa.",
+      "datetime": "2021-04-15T14:40:37.531Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 4,
+      "rating": 2,
+      "title": "animi cupiditate vel sint",
+      "description": "Sed atque qui amet enim aliquam nostrum voluptas.",
+      "datetime": "2021-02-22T00:41:53.780Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 5,
+      "rating": 5,
+      "title": "molestias eum unde necessitatibus saepe",
+      "description": "Non aliquid quasi quia porro vel ab animi.",
+      "datetime": "2020-06-07T09:30:52.158Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 6,
+      "rating": 1,
+      "title": "nemo dolor quos aliquid",
+      "description": "Ea voluptatem cupiditate quam laboriosam.",
+      "datetime": "2020-07-21T08:53:16.994Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 7,
+      "rating": 4,
+      "title": "architecto quis rerum officiis dolorum quasi",
+      "description": "Et quis magni at ratione.",
+      "datetime": "2020-07-05T19:23:22.064Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 8,
+      "rating": 1,
+      "title": "ut tempore perferendis optio eos qui",
+      "description": "Eum laboriosam nihil provident repellat quos quibusdam qui.",
+      "datetime": "2020-06-09T03:52:36.978Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 9,
+      "rating": 3,
+      "title": "dolores nisi non quia architecto",
+      "description": "Nihil qui facilis libero qui explicabo quibusdam.",
+      "datetime": "2021-02-02T15:37:47.896Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 10,
+      "rating": 5,
+      "title": "et et maiores molestiae",
+      "description": "Voluptatem neque veritatis nihil est incidunt.",
+      "datetime": "2021-01-19T16:29:23.748Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 11,
+      "rating": 1,
+      "title": "neque et voluptatem in in",
+      "description": "Quidem quasi et dolore enim dignissimos nostrum esse quis.",
+      "datetime": "2021-02-15T07:30:20.368Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 12,
+      "rating": 5,
+      "title": "recusandae enim non minima expedita",
+      "description": "Eveniet dolorem totam et.",
+      "datetime": "2020-08-10T14:22:18.344Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 13,
+      "rating": 4,
+      "title": "ea temporibus quam velit voluptatem vel",
+      "description": "Rerum molestiae inventore tenetur molestias fuga voluptas at et et.",
+      "datetime": "2020-08-24T12:06:54.632Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 14,
+      "rating": 3,
+      "title": "amet dolore praesentium natus",
+      "description": "Asperiores et id corrupti aut et laborum cumque ad.",
+      "datetime": "2020-11-30T19:27:31.782Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 15,
+      "rating": 5,
+      "title": "quis est iste qui",
+      "description": "Sit provident mollitia esse fugiat culpa aliquid.",
+      "datetime": "2021-01-09T11:33:05.290Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 16,
+      "rating": 2,
+      "title": "voluptas omnis rem cum blanditiis nostrum",
+      "description": "Dicta ut impedit et fuga unde saepe unde.",
+      "datetime": "2020-06-21T04:26:44.028Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 17,
+      "rating": 3,
+      "title": "rerum nihil ab ratione",
+      "description": "Deleniti autem consequatur suscipit repellat et exercitationem.",
+      "datetime": "2021-01-31T15:44:45.986Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 18,
+      "rating": 2,
+      "title": "facilis est voluptatem non mollitia",
+      "description": "Tempora velit tempore.",
+      "datetime": "2020-11-11T21:48:10.156Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 19,
+      "rating": 3,
+      "title": "quo voluptatem totam quod",
+      "description": "Illum itaque pariatur maxime blanditiis quo ipsam.",
+      "datetime": "2020-07-13T00:37:58.561Z",
+      "userId": 1,
+      "restaurantId": 2
+    },
+    {
+      "id": 20,
+      "rating": 3,
+      "title": "quaerat recusandae molestiae dolor velit nobis",
+      "description": "Aut mollitia ut laudantium aperiam architecto aut autem.",
+      "datetime": "2020-10-15T18:32:37.205Z",
+      "userId": 1,
+      "restaurantId": 2
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "im-hungry-backend",
+  "version": "1.0.0",
+  "main": "generate.js",
+  "repository": "https://github.com/kalin-pmn/im-hungry-backend.git",
+  "author": "fResult",
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "json-server generate.js"
+  },
+  "dependencies": {
+    "faker": "^5.5.3",
+    "json-server": "^0.16.3",
+    "lodash": "^4.17.21"
+  }
+}
